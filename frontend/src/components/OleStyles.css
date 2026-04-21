@@ -1,0 +1,39 @@
+.profile-card {
+	background-color: #f5f5dc;
+	border: 1px solid #eae7e2;
+	border-radius: 12px;
+	padding: 3rem 2rem;
+	max-width: 320px;
+	text-align: center;
+	font-family: monospace;
+	color: #2c2c2c;
+}
+
+.profile-card h2 {
+	color: #2c2c2c;
+	font-size: 2rem;
+	font-weight: 500;
+	margin: 0 0 0 1rem 0;
+}
+
+.profile-card figure {
+	margin: 0 0 2rem 0;
+	padding: 0;
+}
+
+.profile-card img {
+	width: 140px;
+	height: 140px;
+	object-fit: cover;
+}
+
+.profile-card address {
+	font-style: normal;
+	margin-bottom: 1rem;
+}
+
+.profile-card address a {
+	color: #6b705c;
+	text-decoration: none;
+	font-weight: 500;
+}
