@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import client from './helpers/client'
 import OleProfile from './components/OleProfile'
 import FrideProfile from './components/FrideProfile'
+import Jesper from './components/Jesper'
 
 export default function App() {
 	const [arbeidskravList, setArbeidskravList] = useState(null)
@@ -20,6 +21,7 @@ export default function App() {
 			<h1>Gruppe 20</h1>
 			<OleProfile />
 			<FrideProfile />
+			<Jesper />
 
 			<section className="arbeidskrav-list">
 				<h2>Arbeidskrav</h2>
