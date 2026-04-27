@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react'
 import client from './helpers/client'
 import OleProfile from './components/OleProfile'
+import FrideProfile from "./components/FrideProfile"
 
 export default function App() {
 	const [arbeidskravList, setArbeidskravList] = useState(null)
@@ -18,6 +19,7 @@ export default function App() {
 		<>
 			<h1>Gruppe 20</h1>
 			<OleProfile />
+			<FrideProfile />
 
 			<section className="arbeidskrav-list">
 				<h2>Arbeidskrav</h2>
@@ -31,4 +33,13 @@ export default function App() {
 			</section>
 		</>
 	)
+}
+
+export default function App(){
+    return(
+        <>
+        <h1>:D</h1>
+        </>
+    )
+
 }
