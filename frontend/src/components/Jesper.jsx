@@ -1,4 +1,4 @@
-import client from "../helpers/client"
+import "../styles/JesperStyles.css"
 
 export default function Jesper() {
   return (
