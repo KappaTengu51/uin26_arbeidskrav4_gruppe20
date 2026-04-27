@@ -3,6 +3,7 @@ import client from './helpers/client'
 import OleProfile from './components/OleProfile'
 import FrideProfile from './components/FrideProfile'
 import Jesper from './components/Jesper'
+import KristofferProfile from './components/KristofferProfile'
 
 export default function App() {
 	const [arbeidskravList, setArbeidskravList] = useState(null)
@@ -22,6 +23,7 @@ export default function App() {
 			<OleProfile />
 			<FrideProfile />
 			<Jesper />
+			<KristofferProfile />
 
 			<section className="arbeidskrav-list">
 				<h2>Arbeidskrav</h2>
