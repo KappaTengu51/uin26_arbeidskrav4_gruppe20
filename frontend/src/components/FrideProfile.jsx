@@ -1,5 +1,5 @@
 
-export default function FrideProfile(p){
+export default function FrideProfile(){
     return(
         <section>
             
