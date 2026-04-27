@@ -7,7 +7,6 @@ export default function App(){
         <>
         <h1>:D</h1>
         <KristofferProfile />
-
         </>
     )
 
