@@ -1,0 +1,32 @@
+h1{
+    font-size: 5rem;
+    padding: 2rem;
+}
+
+section{
+    display: flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+  justify-content: space-around;
+
+  article{
+    padding: 2rem;
+  }
+
+}
+
+.arbeidskrav-list{
+    p{
+        padding: 0.5rem;
+    }
+
+}
+
+.arbeidskrav-item{
+    list-style: none;
+}
+
+h3{
+    width: 100%;
+    font-size: 2rem;
+}
