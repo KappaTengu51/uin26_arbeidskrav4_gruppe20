@@ -1,0 +1,49 @@
+.kristoffer-profile {
+    max-width: 320px;
+    padding: 1.2rem;
+    margin: 1rem auto;
+    border: 1px solid #d0d7de;
+    border-radius: 14px;
+    background: #ef06a9;
+    box-shadow: 0 10px 24px rgba(15, 23, 42, 0.08);
+    text-align: center;
+    font-family: Inter, system-ui, sans-serif;
+}
+
+.kristoffer-profile__name {
+    font-size: 1.45rem;
+    margin-bottom: 0.75rem;
+    background: linear-gradient(90deg, #ef4444, #f59e0b, #facc15, #22c55e, #3b82f6, #8b5cf6, #ec4899);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+
+.kristoffer-profile__avatar {
+    width: 100%;
+    max-width: 240px;
+    height: auto;
+    display: block;
+    margin: 0 auto 1rem;
+    border-radius: 18px;
+    object-fit: cover;
+}
+
+.kristoffer-profile__email {
+    display: inline-block;
+    margin-bottom: 0.75rem;
+    color: #000000;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.kristoffer-profile__email:hover {
+    text-decoration: underline;
+}
+
+.kristoffer-profile__studie {
+    margin: 0;
+    color: #000000;
+    line-height: 1.6;
+}
